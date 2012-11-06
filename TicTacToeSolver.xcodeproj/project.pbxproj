@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFAE20601649CD2D00C0D18A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFAE205F1649CD2D00C0D18A /* main.cpp */; };
+		AFAE20621649CD2D00C0D18A /* TicTacToeSolver.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AFAE20611649CD2D00C0D18A /* TicTacToeSolver.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFAE20591649CD2D00C0D18A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				AFAE20621649CD2D00C0D18A /* TicTacToeSolver.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AFAE205B1649CD2D00C0D18A /* TicTacToeSolver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TicTacToeSolver; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAE205F1649CD2D00C0D18A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AFAE20611649CD2D00C0D18A /* TicTacToeSolver.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TicTacToeSolver.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFAE20581649CD2D00C0D18A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFAE20501649CD2D00C0D18A = {
+			isa = PBXGroup;
+			children = (
+				AFAE205E1649CD2D00C0D18A /* TicTacToeSolver */,
+				AFAE205C1649CD2D00C0D18A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFAE205C1649CD2D00C0D18A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFAE205B1649CD2D00C0D18A /* TicTacToeSolver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFAE205E1649CD2D00C0D18A /* TicTacToeSolver */ = {
+			isa = PBXGroup;
+			children = (
+				AFAE205F1649CD2D00C0D18A /* main.cpp */,
+				AFAE20611649CD2D00C0D18A /* TicTacToeSolver.1 */,
+			);
+			path = TicTacToeSolver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFAE205A1649CD2D00C0D18A /* TicTacToeSolver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAE20651649CD2D00C0D18A /* Build configuration list for PBXNativeTarget "TicTacToeSolver" */;
+			buildPhases = (
+				AFAE20571649CD2D00C0D18A /* Sources */,
+				AFAE20581649CD2D00C0D18A /* Frameworks */,
+				AFAE20591649CD2D00C0D18A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicTacToeSolver;
+			productName = TicTacToeSolver;
+			productReference = AFAE205B1649CD2D00C0D18A /* TicTacToeSolver */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFAE20521649CD2D00C0D18A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = AFAE20551649CD2D00C0D18A /* Build configuration list for PBXProject "TicTacToeSolver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFAE20501649CD2D00C0D18A;
+			productRefGroup = AFAE205C1649CD2D00C0D18A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFAE205A1649CD2D00C0D18A /* TicTacToeSolver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFAE20571649CD2D00C0D18A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAE20601649CD2D00C0D18A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AFAE20631649CD2D00C0D18A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AFAE20641649CD2D00C0D18A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AFAE20661649CD2D00C0D18A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFAE20671649CD2D00C0D18A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFAE20551649CD2D00C0D18A /* Build configuration list for PBXProject "TicTacToeSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAE20631649CD2D00C0D18A /* Debug */,
+				AFAE20641649CD2D00C0D18A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFAE20651649CD2D00C0D18A /* Build configuration list for PBXNativeTarget "TicTacToeSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAE20661649CD2D00C0D18A /* Debug */,
+				AFAE20671649CD2D00C0D18A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFAE20521649CD2D00C0D18A /* Project object */;
+}
